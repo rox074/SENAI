@@ -1,0 +1,9 @@
+.box{
+    max-width: 1024px; /*Largura máxima*/
+    height: 300px;
+    margin: 0 auto;
+    background-color: #f00;
+}
+p{
+    color: white;
+}
