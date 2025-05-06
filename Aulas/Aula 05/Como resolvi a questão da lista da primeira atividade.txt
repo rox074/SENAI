@@ -1,0 +1,22 @@
+     <ol>
+        <li><b>Saúde</b></li>
+        <ul type="circle">
+        <li>Diagnóstico por imagem</li>
+        <li>Previsão de epidemias</li>
+        <li>Cirurgias assistidas por robôs</li>
+        </ul>
+        <li><b>Educação</b></li>
+        <ul type="circle">
+        <li>Plataformas personalizadas de ensino</li>
+        <li>Correção automática de provas</li>
+        <li>Chatbots para apoio ao aluno</li>
+        </ul>
+        <li><b>Varejo e Marketing</b></li>
+        <ul type="circle">
+        <li>Recomendação de produtos</li>
+        <li>Análise de comportamento do consumidor</li>
+        <li>Atendimento automático via IA</li>
+        </ul>
+    </ol>
+
+

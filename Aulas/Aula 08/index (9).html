@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Aula 08</title>
+		<style>
+			img{
+			width: 100%;
+			}
+			.pai{
+			width:100%; 
+			height: auto; 
+			background-color: #fff;
+			}
+			.filho{
+			margin: 0 auto;
+			width:1024px; 
+			height: auto; 
+			background-color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="pai">
+			<div class="filho">
+				<h1>3 Formas de Usar CSS em Paginas HTML: Da Simplicidade a Profissionalizacao</h1>
+	<h2>Introducao</h2>
+	<p>
+                        No desenvolvimento web, a aparencia de um site e tao importante quanto seu conteudo. Atraves do <b>CSS (Cascading Style Sheets)</b>, e possível transformar paginas simples em experiencias visuais agradaveis, 	     modernas e funcionais. O <i>CSS permite controlar cores, fontes, tamanhos, espacamentos, posicionamentos e diversos outros aspectos esteticos da pagina.</i> Mas para aplicar esses estilos  corretamente, e essencial conhecer as formas disponiveis de implementacao.
+	</p>
+	<p>
+	    <b> Existem tres maneiras principais de aplicar CSS em uma pagina HTML: </b> <i>inline, interno e externo.  </i> Cada uma  possui características especificas e e indicada para diferentes situacoes, desde alteracoes                               pontuais ate  projetos de maior escala e complexidade. Entender quando e como usar cada uma dessas  abordagens  pode facilitar muito a manutencao e o crescimento de um site, alem de contribuir para a  organizacao e  clareza do codigo.
+	</p>
+	<p>
+	          <b> Neste conteudo, </b> voce vai aprender como cada forma de uso do CSS funciona na prática, com   explicacoes simples, exemplos ilustrativos e sugestoes de imagens para facilitar a compreensao. Ao final, voce tera uma visao clara e objetiva sobre qual abordagem utilizar em seus projetos, desde os  mais simples ate os mais profissionais.
+	</p>
+
+	<img src="https://www.isbrasil.info/blog/_images/blog/destaques/2018/05/28/html-x-css-afinal-quais-sao-as-diferencas_1b35feb55a5e269746bc6bc148337033.webp" width= "400"/>
+
+	<h2>1-  CSS Inline:  Aplicacao direta no elemento HTML</h2>
+
+	<p>
+	       <b>O CSS inline e a forma mais direta e simples de aplicar estilos </b>. Ele e usado quando se deseja personalizar um unico elemento na pagina, sem afetar os demais. Nesse metodo, os estilos sao escritos diretamente dentro da propria tag HTML que sera estilizada.
+	</p>
+	<p>
+Essa abordagem e bastante util para ajustes rapidos, testes visuais ou mudancas pontuais que nao se repetem em outros elementos. Por exemplo, ao destacar uma palavra ou paragrafo em uma cor diferente ou aumentar o tamanho de uma unica frase.
+	</p>
+	<p>
+Contudo, essa tecnica nao e recomendada em projetos maiores, pois dificulta a manutencao do codigo e torna o HTML visualmente poluido. Alem disso, ao repetir muitos estilos inline, o codigo se torna redundante e menos eficiente.
+	</p>
+
+	<img src= "https://i.ytimg.com/vi/wLt-7E9p1wk/maxresdefault.jpg" width= "400"/>
+
+	<ol type= "1">
+	      <li><b>Exemplos praticos:</b></li> <br>
+	            <ul type= "square">
+		<li>Destacar o titulo de uma noticia com cor diferente.</li>
+		<li>Aumentar o tamanho de uma unica palavra no meio de um texto.</li>
+		<li>Aplicar um fundo amarelo apenas a um botao especifico.</li>
+	          </ul
+	    </li>
+	</ol>
+
+	<img src= "https://iamsteve.me/images/blog/inline-block-whitespace.png" width= "400"/>
+
+	<h2> 2 - CSS Interno:  Estilo dentro da propria pagina HTML</h2>
+
+	<p>
+	       O CSS interno e ideal quando voce deseja aplicar estilos a uma unica pagina, mas de forma mais organizada que o inline. Aqui, os estilos sao agrupados dentro de uma secao especifica chamada style, localizada no cabecalho da pagina HTML. Assim, o conteudo HTML permanece separado da parte de estilizacao, ainda que ambos estejam no mesmo arquivo.
+	</p>
+	<p>
+Essa abordagem e util quando se esta desenvolvendo um prototipo, uma pagina unica ou uma aplicacao com poucas regras de estilo. Por permitir agrupar todas as regras visuais em um unico bloco, facilita a leitura e organizacao do codigo, mesmo estando na mesma pagina.
+	</p>
+	<p>
+Apesar de ser mais organizado que o CSS inline, ainda e limitado em termos de reutilizacao. Se voce quiser aplicar os mesmos estilos em varias paginas, teria que copiar e colar as mesmas regras em cada uma delas, o que nao e eficiente.
+	</p>
+
+	<img src= "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2023/08/css-breakpoints.webp" width= "400"/>
+	
+	<ol type= "1">
+	      <li><b>Exemplos praticos:</b></li> <br>
+	            <ul type= "square">
+		<li>Criar um estilo exclusivo para uma landing page promocional.</li>
+		<li>Personalizar uma pagina de boas-vindas com cabecalho, corpo e rodape unicos.</li>
+		<li>Desenvolver um curriculo online com estilos proprios aplicados apenas nessa pagina.</li>
+	          </ul>
+	    </li>
+	</ol>
+	
+	<img src= "https://miro.medium.com/v2/resize:fit:1400/1*UEnozrqmy5sDLqSS1tsHUQ.png" width= "400"/>
+
+	<h2>3 - CSS Externo:  Organizacao e reutilizacao em multiplas paginas</h2>
+
+	<p>
+	      O CSS externo e a forma mais recomendada e profissional de se aplicar estilos em um projeto. Nele, todas as regras de estilo sao escritas em um arquivo separado, com extensao .css. Esse arquivo e então vinculado ao documento HTML atraves de uma tag no cabecalho.
+	</p>
+	<p>
+Essa separacao clara entre estrutura (HTML) e apresentacao (CSS) permite uma organizacao muito mais eficiente. Um mesmo arquivo CSS pode ser usado para aplicar estilos a varias paginas de um site, garantindo consistncia visual, facilidade de manutencao e reaproveitamento do codigo.
+	</p>
+	<p>
+Alem disso, em projetos colaborativos, o uso de CSS externo permite que desenvolvedores e designers trabalhem juntos de forma mais clara, cada um focando em sua área sem interferir diretamente no trabalho do outro.
+	</p>
+
+	<img src= "https://phoenixnap.com/glossary/wp-content/uploads/2022/08/css-uses.jpg" width= "400"/>
+
+	<ol type= "1">
+	      <li><b>Exemplos praticos:</b></li> <br>
+	            <ul type= "square">
+		<li>Desenvolver um site institucional com varias paginas (home, sobre, servicos, contato).</li>
+		<li>Criar um blog onde todas as postagens seguem o mesmo padrao visual.</li>
+		<li>Aplicar um tema completo a uma loja virtual com paginas dinamicas.</li>
+	          </ul>
+	    </li>
+	</ol>
+
+	<img src= "https://static.skillshare.com/uploads/video/thumbnails/3756405101001/original" width= "400"/>
+			</div>
+		</div>		
+	</body>
+</html>
