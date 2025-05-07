@@ -1,13 +1,12 @@
 
  .container{
-    width: 1024px;
+   max-width: 1024px;
     height: auto;
+    margin: 0 auto;
  }
  a{
     text-decoration: none;
  }
- .banner img{
-    max-width: 1024px;
-    height: auto;
-    margin: 0 auto;
+ .btn{
+
  }
