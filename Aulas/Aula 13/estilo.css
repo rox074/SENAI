@@ -10,9 +10,9 @@
 width: 300px;
 height: auto;
 background-color: black;
-padding: auto;
 border-radius: 16px;
 border: 1px solid white;
+padding: 10px;
 }
 
 .box img{
